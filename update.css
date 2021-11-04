@@ -1,0 +1,96 @@
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+.animate-float-no-border {
+  overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+.animate-float {
+    border-radius: 100%;
+    height: 173px;
+    width: 173px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-1s {
+    animation-delay: 1s;
+}
+.animate-float-2s {
+    animation-delay: 2s;
+}
+.animate-float-3s {
+    animation-delay: 3s;
+}
+.animate-float-4s {
+    animation-delay: 4s;
+}
+.animate-float-5s {
+    animation-delay: 5s;
+}
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  .featurette-divider {
+          width: 80%;      
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .navbar .collapse .navbar-brand .mx-4 {
+            width: 120px; height: 40px;
+          }
+          .carousel .carousel-inner .carousel-item .bg {
+            background-image: url('hillsong/12188161_10154295869075410_5912273491584883618_o.jpg');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            height: 689px;
+          }
+          .carousel .carousel-inner .carousel-item .bg-1{
+            background-image: url('hillsong/Concert+Date+Idea+for+spring.jpg'); background-size: cover; background-repeat: no-repeat; height: 689px;
+          }
+          .carousel .carousel-inner .carousel-item .bg-3 {
+            background-image: url('hillsong/wp3758709.jpg');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            height: 689px;
+          }
+          .carousel .carousel-inner .carousel-item .cap-1 {
+            position: absolute; top: 220px; left: 500px;
+          }
+          .carousel .carousel-inner .carousel-item .cap-2 {
+            position: absolute; top: 220px;
+          }
+          .carousel .carousel-inner .carousel-item .cap-3 {
+            position: absolute; top: 450px;
+          }
+
+          @media only screen and (max-width: 992px) {
+            .navbar .collapse {
+              display: flex;
+              flex-direction: row;
+            }
+          }

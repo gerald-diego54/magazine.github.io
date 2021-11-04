@@ -1,0 +1,17 @@
+.navbar .collapse .navbar-brand img {
+    width: 120px;
+    height: 40px;
+  }
+  .contain {
+    background-image: url('svg/design.gif');
+    background-size: cover; 
+    background-repeat:repeat; 
+    background-position: center; 
+    height: 640px;
+  }
+  @media only screen and (max-width: 992px) {
+    .navbar .collapse {
+      display: flex;
+      flex-direction: row;
+    }
+  }
